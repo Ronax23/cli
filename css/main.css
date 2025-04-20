@@ -1,0 +1,700 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+
+/* Common Stuff Here */
+
+html {
+    font-size: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.my-5
+{
+    margin: 20px 0;
+}
+.clear::after {
+    clear: both;
+    content: "";
+    /* background-color: red; */
+    display: block;
+    /* background-color: grey; */
+}
+
+.inner {
+    width: 80%;
+    /* background-color: rebeccapurple; */
+    margin: 0 auto;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.button_prop {
+    padding: 22px 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid aqua;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 2px;
+    transition-duration: .5s;
+}
+
+.button_prop:hover {
+    border: 0 5px 5px 0 solid aqua;
+}
+
+
+/* Sec 1 */
+
+.main {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+.con11 {
+    width: 38%;
+    height: 30vh;
+    margin-top: 150px;
+}
+
+.con1 {
+    width: 60%;
+    /* background-color: red; */
+    margin-top: 150px;
+}
+
+.f-right u {
+    float: right;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    padding: 50px 20px;
+    text-transform: uppercase;
+    /* background-color: gray; */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.con11 img {
+    width: 100%;
+}
+
+.con1 span{
+    color: aqua;
+    font-size: 4rem;
+    text-transform: uppercase;
+    /* margin-bottom: 40px; */
+}
+
+.con1 h1 {
+    color: aliceblue;
+    font-size: 7rem;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: rgb(2, 44, 40, 0.3);
+}
+
+
+/* sec 2 */
+
+.sec2 {
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: black;
+}
+
+.ali {
+    margin: 0 2%;
+}
+
+.cont2 {
+    width: 32%;
+    /* margin-right: 20px; */
+    padding: 70px 30px;
+    background-color: #121212;
+    text-align: left;
+    border: 4px solid transparent;
+}
+
+.con2br {
+    border: 4px solid aqua;
+}
+
+.imgs {
+    height: 70px;
+}
+
+.cont2 h2 {
+    font-size: 4rem;
+    margin: 15px 0;
+    color: white;
+}
+
+.cont2 p {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.cont2 {
+    font-size: 2rem;
+    line-height: 1;
+    color: whitesmoke;
+}
+
+.cont2:hover {
+    border: 4px solid red;
+}
+
+
+/* .cont2 img{
+  width: 100%;
+} */
+
+
+/* Services */
+
+.service {
+    background-color: black;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.sec3 {
+    background-color: rgb(11, 12, 16);
+    width: 100%;
+    padding: 4% 0;
+}
+
+.tex {
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+.tex h1 {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.tex p {
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+.contray,
+.contray1 {
+    width: 32%;
+    /* padding: 0 20px; */
+    margin: 30px 0x;
+    /* background-color: gray; */
+    border-bottom: 4px solid white;
+}
+.contray
+{
+    position: relative;
+    overflow: hidden;
+}
+.contray .txtt
+{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    padding: 50px;
+    font-size: 2.5rem;
+    background-color: #121212;
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
+}
+.contray:hover  .txtt
+{
+    left: 0;
+}
+.contray1 {
+    background-color: rgb(26, 23, 23);
+    /* margin: 0 10px; */
+    width: 31%;
+    text-align: left;
+    padding: 20px;
+}
+
+.gap {
+    margin: 0 3%;
+}
+
+.contray1 p,
+h2 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contray img {
+    width: 100%;
+    height: 35vh;
+}
+
+.tray {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 70px;
+}
+
+.contray1 h2 {
+    font-size: 2.5rem;
+}
+
+.contray .inner h2,
+.contray .inner {
+    padding-bottom: 20px;
+}
+
+.contray .inner:hover {
+    background-color: aqua;
+    color: aliceblue;
+}
+
+#logo {
+    margin: 40px 0;
+    font-size: 60px;
+    color: aqua;
+}
+
+
+/* con3 */
+
+.con3_img {
+    width: 46%;
+    margin-right: 10px;
+}
+
+.con3_img img {
+    width: 100%;
+    height: 30vh;
+}
+
+.con4 {
+    width: 100%;
+}
+
+.divider,
+.divi {
+    width: 49%;
+}
+
+.divider img {
+    width: 100%;
+    height: 100vh;
+}
+
+.divider2 {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.sec8 {
+    background: rgb(1, 1, 1, .9);
+    width: 100%;
+}
+
+.divider2 img {
+    height: 48vh;
+}
+
+.dat4 {
+    width: 31%;
+    padding: 40px;;
+}
+
+.tex2 {
+    color: white;
+}
+
+.tex2 h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.tex2 h2,
+.tex p {
+    text-align: left !important;
+}
+
+.tex2 p {
+    font-size: 2rem;
+}
+
+.laster,
+.formm {
+    width: 50%;
+    color: white;
+    /* background-color: blue; */
+}
+
+.formm {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.formcal {
+    width: 100%;
+}
+
+.laster .inner .test {
+    text-transform: capitalize;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.laster .inner p {
+    font-size: 1.5rem;
+}
+
+.laster .inner h2 {
+    font-size: 3rem;
+}
+
+.formm h1,
+.laster h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+.bgpic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9)0%, rgba(0, 0, 0, 0.9)100%), url("../img/address.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 63vh;
+}
+
+
+/* Next LM*/
+
+.logo img {
+    /* width: 100%; */
+    height: 7em;
+    margin: 40px 0;
+}
+
+.block {
+    background-color: rgb(26, 23, 23);
+    text-align: center;
+    width: 22%;
+    /* padding: 20px 0; */
+    margin: 20px 1.5%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.block p,
+.block h2 {
+    color: white;
+    margin: 10px 0;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+/* .pic_arj h2,p{
+  text-align: center !important;
+} */
+
+.pic_arj {
+    position: absolute;
+    text-align: center;
+    bottom: -100;
+    left: 32%;
+}
+
+.pic_arj img {
+    width: 40%;
+    height: 50px;
+    border-radius: 100%;
+    margin-bottom: 6px;
+
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+.container-f p {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    text-align: left;
+    line-height: 2;
+}
+
+.container-f {
+    width: 22%;
+    text-align: center;
+    margin: 20px;
+}
+
+.container-f ul li {
+    list-style-type: disc;
+    margin: 15px 0;
+    padding: 0;
+    float: none;
+    text-align: left;
+}
+
+.container-f ol li {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0;
+    float: none;
+    text-align: left;
+}
+
+.divider3 {
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.divider3 i {
+    font-size: 4rem;
+    padding: 20px;
+}
+
+.con5 {
+    width: 50%;
+    color: white;
+    font-size: 2.2rem;
+}
+
+.con5 p {
+    color: aqua;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 2.2rem;
+}
+
+.con55 p {
+    color: aqua;
+}
+
+.con55 h1,
+.con55 p,.con5 a {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.con55 {
+    color: white;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.con7 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9)0%, rgba(0, 0, 0, 0.9)100%), url(../img/last.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.con7 .inner i {
+    margin-top: 20vh;
+    border: 1px solid aqua;
+    border-radius: 100%;
+    font-size: 4rem;
+}
+
+.con7 h2 {
+    color: white;
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+/* icons-sec */
+
+.icons-sec {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.icons-sec i {
+    padding: 20px;
+}
+
+.icons-sec i:hover {
+    color: aqua;
+}
+
+@media only screen and (max-width:992px) {
+    .gap {
+        margin: 0;
+    }
+    .inner {
+        width: 70%;
+    }
+    .main {
+        height: 100vh;
+    }
+    html {
+        font-size: 8px;
+    }
+    nav ul li {
+        display: none;
+    }
+    .cont2,
+    .contray,
+    .contray1,
+    .con3_img,
+    .con4{
+        width: 48%;
+    }
+    .dat4
+    {
+        width: 100%;
+        float: right;
+    }
+    .block {
+        margin-bottom: 100px;
+    }
+    .container-f {
+        width: 40%;
+    }
+    .contray1 {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .con2 {
+        text-align: center;
+    }
+    .con3_img {
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .divider img {
+        height: 50vh;
+    }
+    .divider2 {
+        height: 30vh;
+        /* issue presist*/
+    }
+    .block {
+        width: 70%;
+        margin: 80px 100px;
+        padding: 0;
+        /* issue here too */
+    }
+    .con5,
+    .con55 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .inner {
+        width: 70%;
+    }
+    .main {
+        height: 100vh;
+    }
+    .con1,
+    .con11,
+    .cont2,
+    .contray,
+    .contray1,
+    .con3_img,
+    .divi,
+    .divider,
+    .divider2,
+    .divider img,
+    .divider2 img,
+    .con4,
+    .dat4,
+    .laster,
+    .formm,
+    .container-f {
+        width: 100%;
+    }
+    .ali {
+        margin: 0;
+    }
+    .cont2,
+    .contray,
+    .contray1,
+    .con3_img,
+    .divider,
+    .divider2 {
+        margin-bottom: 50px;
+    }
+    .service {
+        padding: 20px 0;
+    }
+    .container-f {
+        text-align: center;
+    }
+}
+
+
+/* 
+sec 1
+black
+2 - black #121212 inner box :border #f66fcf1
+3- rgb (11,12,16) bg
+4- copy 2
+5 black
+6- 2 copy
+7- black
+form rgb 1,1,1,.9
+8 black
+9 black
+urban 
+992px gonna arjust it
+768 px set it from 992px
+
+
+*/
