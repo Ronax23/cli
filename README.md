@@ -1,5 +1,3 @@
-# cli
-
 # 🏫 Coaching Website – CLI Institute
 
 This is a static website project created for a coaching center named **CLI**. It features a clean layout, informative sections, and a simple UI made entirely with **HTML and CSS (float-based layout)** — no JavaScript or frameworks.
