@@ -20,6 +20,10 @@ a
 {
     margin: 20px 0;
 }
+.dna 
+{
+    display: none;
+}
 .clear::after {
     clear: both;
     content: "";
@@ -27,7 +31,11 @@ a
     display: block;
     /* background-color: grey; */
 }
-
+.brand_logo img
+{
+    width: 100px;
+    margin-top: 10px;
+}
 .inner {
     width: 80%;
     /* background-color: rebeccapurple; */
@@ -63,7 +71,7 @@ a
 .main {
     width: 100%;
     background-color: black;
-    height: 100vh;
+   padding-bottom: 80px;
 }
 
 .con11 {
@@ -120,7 +128,7 @@ nav {
 
 .sec2 {
     width: 100%;
-    padding-bottom: 80px;
+    padding: 80px 0;
     background-color: black;
 }
 
@@ -441,7 +449,7 @@ textarea {
     position: absolute;
     text-align: center;
     bottom: -80px;
-    left: 25%;
+    left: 28%;
 }
 
 .pic_arj img {
@@ -578,12 +586,12 @@ footer {
         width: 70%;
     }
     .main {
-        height: 100vh;
+       
     }
     html {
         font-size: 8px;
     }
-    nav ul li {
+    nav ul {
         display: none;
     }
     .cont2,
@@ -647,8 +655,15 @@ footer {
     .inner {
         width: 70%;
     }
+    .dna 
+    {
+        display: block;
+        font-size: 40px;
+        margin-top: 30px;
+        color: whitesmoke;
+    }
     .main {
-        height: 100vh;
+        
     }
     .con1,
     .con11,
@@ -704,10 +719,18 @@ footer {
 }
 @media (max-width:450px)
 {
+    .con1
+    {
+        margin-top: 66px;
+    }
     .pic_arj {
 
         left: 30%;
     }
+    .con11 {
+    height: 20vh;
+    margin-top: 88px;
+}
 }
 
 
