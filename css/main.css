@@ -11,6 +11,12 @@
 html {
     font-size: 10px;
 }
+body
+{
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 a
 {
     text-decoration: none;
@@ -64,14 +70,26 @@ a
 .button_prop:hover {
     border: 0 5px 5px 0 solid aqua;
 }
-
-
+ .tex h1{position: relative;}
+ .tex h1::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid aquamarine;
+    width: 80px;
+    left: -90px;
+    top: 60px;
+    /* height: 2px; */
+    color: aqua;
+}
 /* Sec 1 */
 
 .main {
     width: 100%;
-    background-color: black;
    padding-bottom: 80px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(185deg, rgba(1, 1, 19, .93) 100%), url(../img/1.jpg);
 }
 
 .con11 {
@@ -93,7 +111,7 @@ a
 ul li {
     list-style: none;
     float: left;
-    padding: 50px 20px;
+    padding: 50px 15px;
     text-transform: uppercase;
     /* background-color: gray; */
     color: white;
@@ -107,14 +125,14 @@ ul li {
 
 .con1 span{
     color: aqua;
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
     /* margin-bottom: 40px; */
 }
 
 .con1 h1 {
     color: aliceblue;
-    font-size: 7rem;
+    font-size: 5rem;
     margin: 20px 0;
     text-transform: uppercase;
 }
@@ -146,7 +164,8 @@ nav {
 }
 
 .con2br {
-    border: 4px solid aqua;
+    border: 4px solid aqua; 
+    transition-duration: .5s;
 }
 
 .imgs {
@@ -171,7 +190,7 @@ nav {
 }
 
 .cont2:hover {
-    border: 4px solid red;
+    border: 4px solid rgb(35, 194, 194);
 }
 
 
@@ -258,7 +277,10 @@ h2 {
     text-align: left;
     margin-top: 20px;
 }
-
+.contray1 p 
+{
+    margin: 40px 0;
+}
 .contray img {
     width: 100%;
     height: 35vh;
@@ -403,7 +425,6 @@ textarea {
     height: 20vh;
     margin-bottom: 30px;
 }
-
 .bgpic {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9)0%, rgba(0, 0, 0, 0.9)100%), url("../img/address.jpg");
     width: 50%;
@@ -459,6 +480,10 @@ textarea {
     margin-bottom: 6px;
 
 }
+.sec3 .txtt p 
+{
+    font-size: 2rem;
+}
 
 footer {
     background-color: black;
@@ -473,7 +498,7 @@ footer {
 }
 
 .container-f {
-    width: 22%;
+    width: 20%;
     text-align: center;
     margin: 20px;
 }
@@ -542,6 +567,8 @@ footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9)0%, rgba(0, 0, 0, 0.9)100%), url(../img/last.jpg);
     height: 80vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode:luminosity;
     background-size: 100% 100%;
 }
 
